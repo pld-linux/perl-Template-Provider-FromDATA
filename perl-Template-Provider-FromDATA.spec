@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# perform "make test" (require Internet connection)
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Template
 %define	pnam	Provider-FromDATA
 Summary:	Template::Provider::FromDATA - load templates from your __DATA__ section
